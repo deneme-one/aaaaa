@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>İletişim - Matematik Özel Ders</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header>
+  <h1 onclick="location.href='index.html'">Matematik Özel Ders</h1>
+  <nav>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="dersler.html">Dersler</a>
+    <a href="hakkimda.html">Hakkımda</a>
+    <a href="iletisim.html" class="active">İletişim</a>
+  </nav>
+</header>
+
+<main>
+  <section style="padding: 3rem 1rem; color:#3a0e2f; max-width: 500px; margin: 2rem auto;">
+    <h2>İletişim</h2>
+    <form>
+      <label for="name">Adınız:</label><br />
+      <input type="text" id="name" name="name" required /><br />
+      <label for="email">E-posta:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+      <label for="message">Mesajınız:</label><br />
+      <textarea id="message" name="message" rows="5" required></textarea><br />
+      <button type="submit" class="btn-primary">Gönder</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Matematik Özel Ders. Tüm hakları saklıdır.
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
